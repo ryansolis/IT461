@@ -1,4 +1,4 @@
-from flask import g
+#from flask import g
 from db import Db
 
 class Dog():
