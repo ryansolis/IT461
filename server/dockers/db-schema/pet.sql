@@ -24,3 +24,4 @@ CREATE TABLE users(
     INDEX (username)
 );
 INSERT INTO users (username, password) VALUES ('admin', 'admin');
+

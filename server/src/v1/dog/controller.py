@@ -1,5 +1,5 @@
 from flask import request, make_response, jsonify
-from v1.dog.basecontroller import BaseController
+from v1.basecontroller import BaseController
 from v1.dog.model import DogModel
 
 class DogController(BaseController):
