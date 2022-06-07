@@ -4,6 +4,7 @@ from v1.auth import login as auth_login, verify_token as auth_verify_token
 from flask_cors import CORS
 from v1.dog.router import DogRouter
 from v1.cat.router import CatRouter
+#from v1.user.router import UserRouter
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'I/L0ve/CIT-U'
